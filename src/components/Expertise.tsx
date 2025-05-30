@@ -1,35 +1,38 @@
 import React from "react";
-import '@fortawesome/free-regular-svg-icons'
+import '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
     "Python",
     "SQL",
-    "PostgreSQL",
-    "Postman"
+    "Pandas",
+    "NumPy",
+    "Streamlit",
+    "Tableau",
+    "Power BI",
+    "Scikit-learn"
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
+    "Snowflake",
+    "Informatica IICS",
+    "dbt",
+    "Airflow",
     "AWS",
     "Azure",
-    "Pandas",
+    "GitLab CI/CD"
 ];
 
 const labelsThird = [
     "OpenAI",
+    "LLMs",
+    "RAG Pipelines",
     "Hugging Face",
     "LlamaIndex",
-    "Streamlit",
+    "Snowflake Cortex"
 ];
 
 function Expertise() {
@@ -39,11 +42,11 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <FontAwesomeIcon icon={faPython} size="3x" />
+                    <h3>Data Engineering & Analytics</h3>
+                    <p>I specialize in building scalable data pipelines, performing exploratory data analysis, and transforming complex datasets into actionable insights for stakeholders across domains including healthcare and enterprise.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Tools & Skills:</span>
                         {labelsFirst.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -51,11 +54,11 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <FontAwesomeIcon icon={faDocker} size="3x" />
+                    <h3>Cloud Data Stack & Automation</h3>
+                    <p>Experienced in designing ELT pipelines and automating data workflows using modern tools like Snowflake, dbt, and Airflow. I have implemented DevOps and CI/CD practices using GitLab and Informatica IICS.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Tools & Platforms:</span>
                         {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -63,11 +66,11 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <FontAwesomeIcon icon={faReact} size="3x" />
+                    <h3>GenAI & LLM Integrations</h3>
+                    <p>I have built enterprise-grade GenAI solutions using LLMs and Retrieval-Augmented Generation (RAG) to enhance access to clinical and business data. My work leverages tools like OpenAI, Hugging Face, and Snowflake Cortex.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">GenAI Stack:</span>
                         {labelsThird.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
