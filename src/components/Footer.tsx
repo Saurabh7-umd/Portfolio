@@ -1,16 +1,22 @@
 import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import '../assets/styles/Footer.scss'
+import '../assets/styles/Footer.scss';
 
 function Footer() {
   return (
     <footer>
       <div>
-        <a href="https://github.com/satakshehe" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-        <a href="https://www.linkedin.com/in/satakshipattnaik" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+        <a href="https://github.com/Saurabh7-umd" target="_blank" rel="noreferrer">
+          <GitHubIcon />
+        </a>
+        <a href="https://www.linkedin.com/in/saurabh-shinde7" target="_blank" rel="noreferrer">
+          <LinkedInIcon />
+        </a>
       </div>
-      <p>A portfolio designed & built by <a href="https://github.com/satakshehe" target="_blank" rel="noreferrer">Satakshi</a> with 💜</p>
+      <p>
+        A portfolio designed & built by <a href="https://github.com/Saurabh7-umd" target="_blank" rel="noreferrer">Saurabh Shinde</a> with 💜
+      </p>
     </footer>
   );
 }
