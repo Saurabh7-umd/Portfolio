@@ -11,15 +11,15 @@ function Main() {
        
         <div className="content">
           <div className="social_icons">
-            <a href="https://github.com/satakshehe" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/satakshipattnaik" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://github.com/Saurabh7-umd" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+            <a href="https://www.linkedin.com/in/saurabh-shinde7" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Satakshi Pattnaik</h1>
           <p>Passionate Tech. Enthusiast</p>
 
           <div className="mobile_social_icons">
-            <a href="https://github.com/satakshehe" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/satakshipattnaik" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://github.com/Saurabh7-umd" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+            <a href="https://www.linkedin.com/in/saurabh-shinde7" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
         </div>
       </div>
