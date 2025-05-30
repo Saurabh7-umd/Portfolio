@@ -1,10 +1,10 @@
 import React from "react";
-import '@fortawesome/free-regular-svg-icons'
+import '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import '../assets/styles/Timeline.scss'
+import '../assets/styles/Timeline.scss';
 
 function Timeline() {
   return (
@@ -16,50 +16,53 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="October 2023 - December 2023"
+            date="May 2024 – Dec 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">SDE Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Securedsoft Technologies , Bhubneshwar</h4>
+            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Genmab, Princeton, NJ</h4>
             <p>
-              Full-stack Web Development, Project Management, Business Development
+              Built LLM-powered clinical chatbot using Snowflake Cortex, Streamlit, and RAG; implemented CI/CD and data governance with dbt, GitLab, and Informatica.
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2025"
+            date="June 2020 – Aug 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Btech Computer Science student</h3>
-            <h4 className="vertical-timeline-element-subtitle">VIT Vellore , Tamil Nadu</h4>
+            <h3 className="vertical-timeline-element-title">Data Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Tata Consultancy Services, Pune</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Developed ETL workflows using Snowflake and Informatica; implemented predictive pricing models and automated reporting with Tableau.
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2021"
+            date="Sep 2023 – Dec 2024 (Expected)"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">12th CBSE</h3>
-            <h4 className="vertical-timeline-element-subtitle">Aryaman  Vikram Biirla , Haldwani</h4>
+            <h3 className="vertical-timeline-element-title">Master’s in Information Systems</h3>
+            <h4 className="vertical-timeline-element-subtitle">University of Maryland, College Park</h4>
             <p>
-              PCM with Computer Science
+              Focused on data engineering, analytics, and cloud technologies with hands-on coursework in AI and enterprise data systems.
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2018 - 2019"
+            date="2016 – 2020"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">10th CBSE</h3>
-            <h4 className="vertical-timeline-element-subtitle">Aryaman Vikram birla , Haldwani</h4>
+            <h3 className="vertical-timeline-element-title">Bachelor’s in Engineering</h3>
+            <h4 className="vertical-timeline-element-subtitle">University of Mumbai, India</h4>
             <p>
-              Physics, Chemistry , Maths
+              Majored in Electronics and Telecommunications with projects in machine learning and automation.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
